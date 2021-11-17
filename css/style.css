@@ -141,6 +141,9 @@ nav a:hover {
 /* Main */
 main .section {
   margin: 150px 0 300px 0;
+
+  /* !rimuovere */
+  background-color: rgba(0, 0, 255, 0.5);
 }
 main .section-image,
 .section-text {
@@ -157,4 +160,23 @@ main .section-text h2 {
 main .section-text p {
   font-weight: 500;
   font-size: 25px;
+}
+/* * Bottom section */
+.big-section {
+  margin-bottom: 250px;
+
+  /* !rimuovere */
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.big-section .section-text {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#big-pic img {
+  width: 100%;
+}
+#ready-to-start {
+  text-align: center;
 }
