@@ -141,9 +141,6 @@ nav a:hover {
 /* Main */
 main .section {
   margin: 150px 0 300px 0;
-
-  /* !rimuovere */
-  background-color: rgba(0, 0, 255, 0.5);
 }
 main .section-image,
 .section-text {
@@ -164,9 +161,6 @@ main .section-text p {
 /* * Bottom section */
 .big-section {
   margin-bottom: 100px;
-
-  /* !rimuovere */
-  background-color: rgba(255, 0, 0, 0.5);
 }
 .big-section .section-text {
   width: 85%;
