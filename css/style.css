@@ -28,6 +28,9 @@ body {
 .w-20 {
   width: 20%;
 }
+.w-50 {
+  width: 50%;
+}
 .w-60 {
   width: 60%;
 }
@@ -133,4 +136,26 @@ nav a:hover {
 }
 #jumbotron-button a.button:hover {
   color: #3161e0;
+}
+
+/* Main */
+main .section {
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: 150px 0;
+}
+main .section-image,
+.section-text {
+  width: 50%;
+}
+main .section-text .w-50 {
+  margin: 0 auto;
+}
+main .section-text h2 {
+  padding: 20px 0;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+main .section-text p {
+  font-weight: 600;
+  font-size: 1.1rem;
 }
