@@ -11,6 +11,78 @@ img {
 
 body {
   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
 
 /* Utilities */
+.container {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1980px;
+}
+.bg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.w-20 {
+  width: 20%;
+}
+.w-60 {
+  width: 60%;
+}
+.left {
+  float: left;
+}
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.button {
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+/* Header */
+#header-logo {
+  background-color: #3161e0;
+}
+#header-logo div {
+  line-height: 80px;
+}
+#logo {
+  vertical-align: middle;
+}
+
+/* * nav */
+nav li {
+  display: inline-block;
+}
+#header-logo nav.w-60 {
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* * Button log-in */
+#log-in-container {
+  text-align: right;
+}
+#log-in-container .button {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* Jumbotron */
+#jumbotron {
+  background-image: url(../img/jumbo.png);
+  height: 600px;
+}
