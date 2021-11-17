@@ -80,9 +80,55 @@ nav a:hover {
   background-color: white;
   text-decoration: none;
 }
+#log-in-container a.button:hover {
+  color: #3161e0;
+}
 
 /* Jumbotron */
 #jumbotron {
   background-image: url(../img/jumbo.png);
-  height: 600px;
+  height: 650px;
+  position: relative;
+}
+#jumbotron .jumbo-text {
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#jumbotron h1 {
+  font-size: 75px;
+  margin-bottom: 50px;
+}
+#jumbotron p {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/* * Jumbo button */
+#jumbotron-button {
+  margin-top: 50px;
+}
+#jumbotron-button .button {
+  text-decoration: none;
+  padding: 20px 40px;
+  margin: 0 20px;
+  font-size: 20px;
+}
+#jumbotron-button .download {
+  color: #23272a;
+  background-color: white;
+}
+#jumbotron-button .open-browser {
+  color: white;
+  background-color: #23272a;
+}
+#jumbotron-button span {
+  font-size: 20px;
+}
+#jumbotron-button a.button:hover {
+  color: #3161e0;
 }
