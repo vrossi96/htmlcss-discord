@@ -180,3 +180,28 @@ main .section-text p {
 #ready-to-start {
   text-align: center;
 }
+.stars-bg {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 30px;
+}
+.stars-bg h3 {
+  position: relative;
+  z-index: 1;
+}
+.stars-bg img {
+  position: relative;
+  top: 25px;
+}
+#ready-to-start .button-box-start {
+  margin-top: 50px;
+}
+#ready-to-start a {
+  color: white;
+  background-color: #8ea1e1;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+#ready-to-start a:hover {
+  color: #3161e0;
+}
